@@ -1,0 +1,41 @@
+CDR-895:
+TriageReviewer_Validate ExportAuditLog button for requests with Submit, Assigned, Work in progress, On hold, Decline, Deployed statuses in grid
+TriageReviewer_Validate ExportAuditLog button for Draft request in grid
+WorkstationAnalyst_Validate ExportAuditLog button for requests with Submit, Assigned, Work in progress, On hold, Decline, Deployed statuses in grid
+WorkstationAnalyst_Validate ExportAuditLog button for Draft request in grid
+Requestor_Validate ExportAuditLog column in grid
+TriageReviewer_Validate audit history of a request with Submit status
+TriageReviewer_Validate audit history of a request with Assigned status
+TriageReviewer_Validate audit history of a request with WorkInProgress status
+TriageReviewer_Validate audit history of a request with OnHold status
+TriageReviewer_Validate audit history of a request with Decline status
+TriageReviewer_Validate audit history of a request with Deployed status
+WorkstationAnalyst_Validate audit history of a request with Submit status
+WorkstationAnalyst_Validate audit history of a request with Assigned status
+WorkstationAnalyst_Validate audit history of a request with WorkInProgress status
+WorkstationAnalyst_Validate audit history of a request with OnHold status
+WorkstationAnalyst_Validate audit history of a request with Decline status
+WorkstationAnalyst_Validate audit history of a request with Deployed status
+
+CDR-999:
+TriageReviewer_Validate ExportAuditLog button for Retired request in grid
+WorkstationAnalyst_Validate ExportAuditLog button for Retired request in grid
+
+CDR-1211:
+TriageReviewer_Validate data in Workstation name column of request with multiple Workstations
+TriageReviewer_Validate data of request with multiple Workstations in CSV export of grid
+TriageReviewer_Validate global search in grid for workstation name of request with multiple workstation names
+TriageReviewer_Validate filter of Workstation column in grid for a request with multiple workstation names
+TriageReviewer_Validate CHG Numbers, JIRA number and WIP Number columns in grid 
+TriageReviewer_Validate filter and global search functionalities for data in JIRA number and WIP Number columns in grid 
+WorkstationAnalyst_Validate data in Workstation name column of request with multiple Workstations
+WorkstationAnalyst_Validate data of request with multiple Workstations in CSV export of grid
+WorkstationAnalyst_Validate global search in grid for workstation name of request with multiple workstation names
+WorkstationAnalyst_Validate filter of Workstation column in grid for a request with multiple workstation names
+WorkstationAnalyst_Validate CHG Numbers, JIRA number and WIP Number columns in grid 
+WorkstationAnalyst_Validate filter and global search functionalities for data in JIRA number and WIP Number columns in grid
+Requestor_Validate CHG Numbers, JIRA number and WIP Number columns in grid
+
+
+
+

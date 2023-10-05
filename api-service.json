@@ -1,0 +1,198 @@
+{
+  "body": {
+    "messsage": "Fetched Role and Project Status Successfully",
+    "data": {
+      "command": "SELECT",
+      "rowCount": 1,
+      "oid": null,
+      "rows": [
+        {
+          "ProjectMasterId": 448,
+          "UserRoleMasterId": 1,
+          "ProjectStatusMasterId": 1,
+          "UserGlobalId": "L037409",
+          "ProjectName": "6t1ui"
+        }
+      ],
+      "fields": [
+        {
+          "name": "ProjectMasterId",
+          "tableID": 20559,
+          "columnID": 6,
+          "dataTypeID": 23,
+          "dataTypeSize": 4,
+          "dataTypeModifier": -1,
+          "format": "text"
+        },
+        {
+          "name": "UserRoleMasterId",
+          "tableID": 20559,
+          "columnID": 7,
+          "dataTypeID": 23,
+          "dataTypeSize": 4,
+          "dataTypeModifier": -1,
+          "format": "text"
+        },
+        {
+          "name": "ProjectStatusMasterId",
+          "tableID": 20630,
+          "columnID": 6,
+          "dataTypeID": 23,
+          "dataTypeSize": 4,
+          "dataTypeModifier": -1,
+          "format": "text"
+        },
+        {
+          "name": "UserGlobalId",
+          "tableID": 20559,
+          "columnID": 3,
+          "dataTypeID": 1043,
+          "dataTypeSize": -1,
+          "dataTypeModifier": 259,
+          "format": "text"
+        },
+        {
+          "name": "ProjectName",
+          "tableID": 20546,
+          "columnID": 2,
+          "dataTypeID": 1043,
+          "dataTypeSize": -1,
+          "dataTypeModifier": 259,
+          "format": "text"
+        }
+      ],
+      "_parsers": [null, null, null, null, null],
+      "_types": {
+        "_types": {
+          "arrayParser": {},
+          "builtins": {
+            "BOOL": 16,
+            "BYTEA": 17,
+            "CHAR": 18,
+            "INT8": 20,
+            "INT2": 21,
+            "INT4": 23,
+            "REGPROC": 24,
+            "TEXT": 25,
+            "OID": 26,
+            "TID": 27,
+            "XID": 28,
+            "CID": 29,
+            "JSON": 114,
+            "XML": 142,
+            "PG_NODE_TREE": 194,
+            "SMGR": 210,
+            "PATH": 602,
+            "POLYGON": 604,
+            "CIDR": 650,
+            "FLOAT4": 700,
+            "FLOAT8": 701,
+            "ABSTIME": 702,
+            "RELTIME": 703,
+            "TINTERVAL": 704,
+            "CIRCLE": 718,
+            "MACADDR8": 774,
+            "MONEY": 790,
+            "MACADDR": 829,
+            "INET": 869,
+            "ACLITEM": 1033,
+            "BPCHAR": 1042,
+            "VARCHAR": 1043,
+            "DATE": 1082,
+            "TIME": 1083,
+            "TIMESTAMP": 1114,
+            "TIMESTAMPTZ": 1184,
+            "INTERVAL": 1186,
+            "TIMETZ": 1266,
+            "BIT": 1560,
+            "VARBIT": 1562,
+            "NUMERIC": 1700,
+            "REFCURSOR": 1790,
+            "REGPROCEDURE": 2202,
+            "REGOPER": 2203,
+            "REGOPERATOR": 2204,
+            "REGCLASS": 2205,
+            "REGTYPE": 2206,
+            "UUID": 2950,
+            "TXID_SNAPSHOT": 2970,
+            "PG_LSN": 3220,
+            "PG_NDISTINCT": 3361,
+            "PG_DEPENDENCIES": 3402,
+            "TSVECTOR": 3614,
+            "TSQUERY": 3615,
+            "GTSVECTOR": 3642,
+            "REGCONFIG": 3734,
+            "REGDICTIONARY": 3769,
+            "JSONB": 3802,
+            "REGNAMESPACE": 4089,
+            "REGROLE": 4096
+          }
+        },
+        "text": {},
+        "binary": {}
+      },
+      "RowCtor": null,
+      "rowAsArray": false
+    }
+  },
+  "headers": {
+    "content-type": "application/json",
+    "content-length": "1880",
+    "connection": "keep-alive",
+    "date": "Wed, 20 Sep 2023 06:49:33 GMT",
+    "x-amzn-requestid": "a3fb500d-17cc-4d1e-a9be-84a2565ab28c",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "application/json,Access-Control-Allow-Headers,access-control-allow-origin,authorization",
+    "x-amz-apigw-id": "LixfpFy7IAMFp_Q=",
+    "access-control-allow-methods": "OPTIONS,GET,POST",
+    "x-amzn-trace-id": "Root=1-650a95fd-5d62c0bc3740e2bc1e41a9a8",
+    "access-control-allow-credentials": "true",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 f3c5f4930da878ee6625af13df3ad240.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "NRT57-C1",
+    "x-amz-cf-id": "7hF6_rsG3uQ9ztib33Lh-Ym0A9_tEF2bk-tagjBgbT2XLft-ky-g6A=="
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiIwY2U3NmZiOC04Mzk5LTRhZWQtOTkxZC1hMTg0ZjUzZmYzMmQiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vMThhNTlhODEtZWVhOC00YzMwLTk0OGEtZDg4MjRjZGMyNTgwL3YyLjAiLCJpYXQiOjE2OTUxODk1ODEsIm5iZiI6MTY5NTE4OTU4MSwiZXhwIjoxNjk1MTk0MzM5LCJhaW8iOiJBVlFBcS84VUFBQUE2TWFFSlJKVDRDV24yRTJsOXB4VlJ4K0RQMGtFTmJ0dS8xVFk1MEZlTlRoWGRlZzlZaTJ0N1RPMDFBMGN1TkltQnpjY21nYmlQVW05TEI4U0VKeURjd0lkaXQ3NTRFOEFveVJpMmJhZUZwZz0iLCJhenAiOiIwY2U3NmZiOC04Mzk5LTRhZWQtOTkxZC1hMTg0ZjUzZmYzMmQiLCJhenBhY3IiOiIwIiwibmFtZSI6IlNoYWlrIFNhZGlxIC0gTmV0d29yayIsIm9pZCI6IjBkMGFhY2JhLWQ3YzEtNDQyYy1hZGUxLTY3ZGVlNGFlMTQ1YSIsInByZWZlcnJlZF91c2VybmFtZSI6InNhZGlxX3NoYWlrQG5ldHdvcmsubGlsbHkuY29tIiwicmgiOiIwLkFSZ0FnWnFsR0tqdU1FeVVpdGlDVE53bGdMaHY1d3laZy0xS21SMmhoUFVfOHkwWUFKYy4iLCJzY3AiOiJMQURMQVBJIiwic3ViIjoiR0h5TFYyNmNYMmZLZTlVXzZFMzBZYnJwRFkxdW1OTXJZQ2d6ajFrNkxtQSIsInRpZCI6IjE4YTU5YTgxLWVlYTgtNGMzMC05NDhhLWQ4ODI0Y2RjMjU4MCIsInV0aSI6Illud1FIZk1QWVVtYmJhNHpmT09aQUEiLCJ2ZXIiOiIyLjAiLCJ1aWQiOiJMMDM3NDA5IiwiZW1wbG95ZWVfaWQiOiIzMDM3NDA5In0.lj3F5NTuJ_8PjzuWFNWdIS14xE_d1gc99wn0gb8RqXqJwITy8XF9kY8fsjXsauWdCpivolS3bJYQGbSQwqsdScRXRuG9VKbt0_7x5wdE_xSWlnG7kPVk9G5p5M9gR4u0AhPax1nZw6W_RzWgUVcsUGFJpPBKq7A2un5WA_k68VclR4vDNhLFxj1YZGbRpwDyu_EGTcBH0ngEhSHJccWtFd_W68J4HkyauQKmWEZuEA3hXvbl0FTxGwO4ylRiGg1CYuaYw2qwoj-kDush1t2xw5P2Pq66Z4WhG9IWPP-4zZXeo2QCR95DGDrLS7D6eZLzPfDgC1Z4eXJf6gVvyQzgiQ",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate"
+  },
+  "duration": 459,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiIwY2U3NmZiOC04Mzk5LTRhZWQtOTkxZC1hMTg0ZjUzZmYzMmQiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vMThhNTlhODEtZWVhOC00YzMwLTk0OGEtZDg4MjRjZGMyNTgwL3YyLjAiLCJpYXQiOjE2OTUxODk1ODEsIm5iZiI6MTY5NTE4OTU4MSwiZXhwIjoxNjk1MTk0MzM5LCJhaW8iOiJBVlFBcS84VUFBQUE2TWFFSlJKVDRDV24yRTJsOXB4VlJ4K0RQMGtFTmJ0dS8xVFk1MEZlTlRoWGRlZzlZaTJ0N1RPMDFBMGN1TkltQnpjY21nYmlQVW05TEI4U0VKeURjd0lkaXQ3NTRFOEFveVJpMmJhZUZwZz0iLCJhenAiOiIwY2U3NmZiOC04Mzk5LTRhZWQtOTkxZC1hMTg0ZjUzZmYzMmQiLCJhenBhY3IiOiIwIiwibmFtZSI6IlNoYWlrIFNhZGlxIC0gTmV0d29yayIsIm9pZCI6IjBkMGFhY2JhLWQ3YzEtNDQyYy1hZGUxLTY3ZGVlNGFlMTQ1YSIsInByZWZlcnJlZF91c2VybmFtZSI6InNhZGlxX3NoYWlrQG5ldHdvcmsubGlsbHkuY29tIiwicmgiOiIwLkFSZ0FnWnFsR0tqdU1FeVVpdGlDVE53bGdMaHY1d3laZy0xS21SMmhoUFVfOHkwWUFKYy4iLCJzY3AiOiJMQURMQVBJIiwic3ViIjoiR0h5TFYyNmNYMmZLZTlVXzZFMzBZYnJwRFkxdW1OTXJZQ2d6ajFrNkxtQSIsInRpZCI6IjE4YTU5YTgxLWVlYTgtNGMzMC05NDhhLWQ4ODI0Y2RjMjU4MCIsInV0aSI6Illud1FIZk1QWVVtYmJhNHpmT09aQUEiLCJ2ZXIiOiIyLjAiLCJ1aWQiOiJMMDM3NDA5IiwiZW1wbG95ZWVfaWQiOiIzMDM3NDA5In0.lj3F5NTuJ_8PjzuWFNWdIS14xE_d1gc99wn0gb8RqXqJwITy8XF9kY8fsjXsauWdCpivolS3bJYQGbSQwqsdScRXRuG9VKbt0_7x5wdE_xSWlnG7kPVk9G5p5M9gR4u0AhPax1nZw6W_RzWgUVcsUGFJpPBKq7A2un5WA_k68VclR4vDNhLFxj1YZGbRpwDyu_EGTcBH0ngEhSHJccWtFd_W68J4HkyauQKmWEZuEA3hXvbl0FTxGwO4ylRiGg1CYuaYw2qwoj-kDush1t2xw5P2Pq66Z4WhG9IWPP-4zZXeo2QCR95DGDrLS7D6eZLzPfDgC1Z4eXJf6gVvyQzgiQ",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate"
+      },
+      "Request URL": "https://z2rvotrk4h.execute-api.us-east-1.amazonaws.com/QA/users/role/?projectId=448&userId=L037409",
+      "Response Body": "{\"messsage\":\"Fetched Role and Project Status Successfully\",\"data\":{\"command\":\"SELECT\",\"rowCount\":1,\"oid\":null,\"rows\":[{\"ProjectMasterId\":448,\"UserRoleMasterId\":1,\"ProjectStatusMasterId\":1,\"UserGlobalId\":\"L037409\",\"ProjectName\":\"6t1ui\"}],\"fields\":[{\"name\":\"ProjectMasterId\",\"tableID\":20559,\"columnID\":6,\"dataTypeID\":23,\"dataTypeSize\":4,\"dataTypeModifier\":-1,\"format\":\"text\"},{\"name\":\"UserRoleMasterId\",\"tableID\":20559,\"columnID\":7,\"dataTypeID\":23,\"dataTypeSize\":4,\"dataTypeModifier\":-1,\"format\":\"text\"},{\"name\":\"ProjectStatusMasterId\",\"tableID\":20630,\"columnID\":6,\"dataTypeID\":23,\"dataTypeSize\":4,\"dataTypeModifier\":-1,\"format\":\"text\"},{\"name\":\"UserGlobalId\",\"tableID\":20559,\"columnID\":3,\"dataTypeID\":1043,\"dataTypeSize\":-1,\"dataTypeModifier\":259,\"format\":\"text\"},{\"name\":\"ProjectName\",\"tableID\":20546,\"columnID\":2,\"dataTypeID\":1043,\"dataTypeSize\":-1,\"dataTypeModifier\":259,\"format\":\"text\"}],\"_parsers\":[null,null,null,null,null],\"_types\":{\"_types\":{\"arrayParser\":{},\"builtins\":{\"BOOL\":16,\"BYTEA\":17,\"CHAR\":18,\"INT8\":20,\"INT2\":21,\"INT4\":23,\"REGPROC\":24,\"TEXT\":25,\"OID\":26,\"TID\":27,\"XID\":28,\"CID\":29,\"JSON\":114,\"XML\":142,\"PG_NODE_TREE\":194,\"SMGR\":210,\"PATH\":602,\"POLYGON\":604,\"CIDR\":650,\"FLOAT4\":700,\"FLOAT8\":701,\"ABSTIME\":702,\"RELTIME\":703,\"TINTERVAL\":704,\"CIRCLE\":718,\"MACADDR8\":774,\"MONEY\":790,\"MACADDR\":829,\"INET\":869,\"ACLITEM\":1033,\"BPCHAR\":1042,\"VARCHAR\":1043,\"DATE\":1082,\"TIME\":1083,\"TIMESTAMP\":1114,\"TIMESTAMPTZ\":1184,\"INTERVAL\":1186,\"TIMETZ\":1266,\"BIT\":1560,\"VARBIT\":1562,\"NUMERIC\":1700,\"REFCURSOR\":1790,\"REGPROCEDURE\":2202,\"REGOPER\":2203,\"REGOPERATOR\":2204,\"REGCLASS\":2205,\"REGTYPE\":2206,\"UUID\":2950,\"TXID_SNAPSHOT\":2970,\"PG_LSN\":3220,\"PG_NDISTINCT\":3361,\"PG_DEPENDENCIES\":3402,\"TSVECTOR\":3614,\"TSQUERY\":3615,\"GTSVECTOR\":3642,\"REGCONFIG\":3734,\"REGDICTIONARY\":3769,\"JSONB\":3802,\"REGNAMESPACE\":4089,\"REGROLE\":4096}},\"text\":{},\"binary\":{}},\"RowCtor\":null,\"rowAsArray\":false}}",
+      "Response Headers": {
+        "content-type": "application/json",
+        "content-length": "1880",
+        "connection": "keep-alive",
+        "date": "Wed, 20 Sep 2023 06:49:33 GMT",
+        "x-amzn-requestid": "a3fb500d-17cc-4d1e-a9be-84a2565ab28c",
+        "access-control-allow-origin": "*",
+        "access-control-allow-headers": "application/json,Access-Control-Allow-Headers,access-control-allow-origin,authorization",
+        "x-amz-apigw-id": "LixfpFy7IAMFp_Q=",
+        "access-control-allow-methods": "OPTIONS,GET,POST",
+        "x-amzn-trace-id": "Root=1-650a95fd-5d62c0bc3740e2bc1e41a9a8",
+        "access-control-allow-credentials": "true",
+        "x-cache": "Miss from cloudfront",
+        "via": "1.1 f3c5f4930da878ee6625af13df3ad240.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "NRT57-C1",
+        "x-amz-cf-id": "7hF6_rsG3uQ9ztib33Lh-Ym0A9_tEF2bk-tagjBgbT2XLft-ky-g6A=="
+      },
+      "Response Status": 200
+    }
+  ]
+}
