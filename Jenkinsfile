@@ -2,8 +2,9 @@ pipeline {
 	agent any
 
     parameters{
-        string(name:'SPEC',defaultValue:'cypress/e2e/**/**',description:"Execute the scripts")
+        //string(name:'SPEC',defaultValue:'cypress/e2e/**/**',description:"Execute the scripts")
         choice(name:'BROWSER',choices:['chrome','edge','firefox'],description:"Select the browser to execute the scripts")
+        choice(name:'TEST',choices:['regression-test','LADL-API-test','components-test'],description:'Select scripts to execute')
     }
     // options{
     //     ansicolor('xterm')
@@ -22,7 +23,8 @@ pipeline {
 		stage('Run Tests'){
 				steps{
 					//bat 'npm run regression-test'
-                    bat  'npx cypress run --browser ${BROWSER} --spec ${SPEC}'
+                  //  bat  'npx cypress run --browser ${BROWSER} --spec ${SPEC}'
+                  bat 'npm run %{TEST}'
 				}
 		}
 		stage('Publish HTML Report'){
