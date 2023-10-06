@@ -5,9 +5,9 @@ pipeline {
         string(name:'SPEC',defaultValue:'cypress/e2e/**/**',description:"Execute the scripts")
         choice(name:'BROWSER',choices:['chrome','edge','firefox'],description:"Select the browser to execute the scripts")
     }
-    options{
-        ansicolor('xterm')
-    }
+    // options{
+    //     ansicolor('xterm')
+    // }
 	stages {
 		stage('Clone Git Repo'){
 				steps{
@@ -25,8 +25,8 @@ pipeline {
                     bat  'npx cypress run --browser ${BROWSER} --spec ${SPEC}'
 				}
 		}
-		post('Publish HTML Report'){
-				always{
+		stage('Publish HTML Report'){
+				steps{
 					publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'cypress/Report/Mochawesome_Reports', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: '', useWrapperFileDirectly: true])
 				}
 		}
