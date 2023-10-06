@@ -24,7 +24,7 @@ pipeline {
 				steps{
 					//bat 'npm run regression-test'
                   //  bat  'npx cypress run --browser ${BROWSER} --spec ${SPEC}'
-                  bat 'npm run ${TEST}'
+                  bat 'npm run %TEST%'
 				}
 		}
 		stage('Publish HTML Report'){
